@@ -1,0 +1,42 @@
+# pip install -r requirements.txt
+
+# base ----------------------------------------
+matplotlib
+numpy
+opencv-python
+Pillow
+PyYAML
+scipy
+torch
+torchvision
+tqdm
+
+# logging -------------------------------------
+tensorboard
+wandb
+
+
+# plotting ------------------------------------
+seaborn
+pandas
+
+# export --------------------------------------
+coremltools
+onnx
+
+
+# extras --------------------------------------
+tensorboardX
+pycocotools
+requests
+easydict
+PyQt5
+psutil
+thop  
+
+
+
+
+
+
+
