@@ -1,0 +1,31 @@
+# base ----------------------------------------
+matplotlib>=3.2.2
+numpy==1.26.4  # 必须锁定为1.x版本
+opencv-python>=4.1.1
+Pillow>=7.1.2
+PyYAML>=5.3.1
+scipy>=1.4.1
+torch==2.0.0  # 与torchvision 0.15.1兼容
+torchvision==0.15.1  # 必须与torch 2.0.0配对
+tqdm>=4.41.0
+
+# logging -------------------------------------
+tensorboard>=2.4.1
+wandb>=0.12.11
+
+# plotting ------------------------------------
+seaborn>=0.11.0
+pandas>=1.1.4
+
+# export --------------------------------------
+coremltools>=4.1
+onnx>=1.9.0
+
+# extras --------------------------------------
+tensorboardX>=2.1
+pycocotools>=2.0
+requests>=2.23.0
+easydict>=1.9
+PyQt5>=5.15.4
+psutil>=5.7.0
+thop>=0.1.1
