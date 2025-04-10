@@ -29,4 +29,3 @@ easydict>=1.9
 PyQt5>=5.15.4
 psutil>=5.7.0
 thop>=0.1.1
->>>>>>> master
