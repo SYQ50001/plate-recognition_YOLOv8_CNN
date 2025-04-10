@@ -1,4 +1,4 @@
-[Python versions][pyversions]
+[Python versions]: https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue
 
  1. 将 requirements.txt 文件中需要的模块先下载到本地，建议单独创建一个虚拟环境。
 
