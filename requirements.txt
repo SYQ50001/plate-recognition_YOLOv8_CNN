@@ -1,31 +1,35 @@
-# base ----------------------------------------
-matplotlib>=3.2.2
-numpy==1.26.4  # 必须锁定为1.x版本
-opencv-python>=4.1.1
-Pillow>=7.1.2
-PyYAML>=5.3.1
-scipy>=1.4.1
-torch==2.0.0  # 与torchvision 0.15.1兼容
-torchvision==0.15.1  # 必须与torch 2.0.0配对
-tqdm>=4.41.0
+# Core dependencies -------------------------------------
+matplotlib==3.8.0  # 3.x最新稳定版，修复了3.0.0的bug
+numpy==1.26.4  # 严格锁定
+opencv-python==4.8.1.78  # OpenCV 4.x最终稳定版
+Pillow==10.0.0  # 现代维护版本
+PyYAML==6.0.1  # 安全补丁版本
+scipy==1.11.4  # 科学计算稳定版
 
-# logging -------------------------------------
-tensorboard>=2.4.1
-wandb>=0.12.11
+# PyTorch ecosystem (strictly paired) -------------------
+torch==2.0.0  # 与torchvision严格配对
+torchvision==0.15.1
+tqdm==4.66.1  # 修复进度条显示问题
 
-# plotting ------------------------------------
-seaborn>=0.11.0
-pandas>=1.1.4
+# Logging & Visualization ------------------------------
+tensorboard==2.15.1  # 兼容Python 3.8+
+wandb==0.16.0  # 关键功能稳定版
+seaborn==0.13.0  # 包含所有绘图API
+pandas==2.1.4  # 性能优化版
 
-# export --------------------------------------
-coremltools>=4.1
-onnx>=1.9.0
+# Model export -----------------------------------------
+coremltools==7.0b1  # 支持Apple Silicon
+onnx==1.14.1  # 修复序列化问题
 
-# extras --------------------------------------
-tensorboardX>=2.1
-pycocotools>=2.0
-requests>=2.23.0
-easydict>=1.9
-PyQt5>=5.15.4
-psutil>=5.7.0
-thop>=0.1.1
+# Utilities --------------------------------------------
+tensorboardX==2.6.2.2  # 兼容PyTorch 2.0
+pycocotools==2.0.7  # 内存泄漏修复版
+requests==2.31.0  # 安全补丁
+easydict==1.10  # 带类型提示
+PyQt5==5.15.9  # Qt兼容性修复
+psutil==5.9.5  # Windows bug修复
+thop==0.1.1.post2209072238  # 可用最新版本
+
+# 开发环境额外依赖 (可选)
+# black==23.12.1  # 代码格式化
+# pylint==2.17.7  # 代码检查
