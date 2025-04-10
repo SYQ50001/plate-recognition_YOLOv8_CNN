@@ -3,4 +3,8 @@
 
 2. 运行GUI.py可以使用图形化界面进行车牌识别。
 3. 将requirements.txt文件中需要的模块先下载到本地，建议单独创建一个虚拟环境。
+<<<<<<< HEAD
    
+=======
+   pip install -r requirements.txt
+>>>>>>> master
